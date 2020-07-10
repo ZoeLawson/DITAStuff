@@ -1,0 +1,24 @@
+Issue,"Description",Release,1.0.0,1.0.1,1.0.2,1.1.0,1.1.1,1.2.0,1.2.1,2.0.0
+EPIC-123,"New Feature 1",1.0.0,include,include,include,include,include,include,include,include
+EPIC-128,"New Feature 6",1.0.0,include,include,include,include,include,include,include,include
+EPIC-132,"New Feature 10",1.0.0,include,include,include,include,include,include,include,include
+BUG-149,"Bug fix with doc changes",1.0.1,exclude,include,include,include,include,include,include,include
+BUG-145,"Bug fix with doc changes",1.0.2,exclude,exclude,include,include,include,include,include,include
+BUG-147,"Bug fix with doc changes",1.0.2,exclude,exclude,include,include,include,include,include,include
+BUG-151,"Bug fix with doc changes",1.0.2,exclude,exclude,include,include,include,include,include,include
+BUG-148,"Bug fix with doc changes",1.1.0,exclude,exclude,exclude,include,include,include,include,include
+EPIC-125,"New Feature 3 - Part 1",1.1.0,exclude,exclude,exclude,only,only,include,include,include
+EPIC-127,"New Feature 5",1.1.0,exclude,exclude,exclude,include,include,include,include,include
+BUG-144,"Bug fix with doc changes",1.1.1,exclude,exclude,exclude,exclude,include,include,include,include
+EPIC-130,"New Feature 8",1.1.1,exclude,exclude,exclude,exclude,include,include,include,include
+BUG-152,"Bug fix with doc changes",1.2.0,exclude,exclude,exclude,exclude,exclude,include,include,include
+EPIC-124,"New Feature 2",1.2.0,exclude,exclude,exclude,exclude,exclude,include,include,include
+EPIC-129,"New Feature 3 - Part 2",1.2.0,exclude,exclude,exclude,exclude,exclude,include,include,include
+BUG-143,"Bug fix with doc changes",1.2.1,exclude,exclude,exclude,exclude,exclude,exclude,include,include
+BUG-146,"Bug fix with doc changes",1.2.1,exclude,exclude,exclude,exclude,exclude,exclude,include,include
+BUG-150,"Bug fix with doc changes",1.2.1,exclude,exclude,exclude,exclude,exclude,exclude,include,include
+BUG-153,"Bug fix with doc changes",2.0.0,exclude,exclude,exclude,exclude,exclude,exclude,exclude,include
+EPIC-126,"New Feature 4",2.0.0,exclude,exclude,exclude,exclude,exclude,exclude,exclude,include
+EPIC-131,"New Feature 9",2.0.0,exclude,exclude,exclude,exclude,exclude,exclude,exclude,include
+Copyright,"Copyright year",copyright,copyright_2019,copyright_2019,copyright_2020,copyright_2020,copyright_2020,copyright_2020,copyright_2020,copyright_2021
+EPIC-133,"New Feature 11",Deprecated,exclude,exclude,exclude,exclude,exclude,exclude,exclude,exclude

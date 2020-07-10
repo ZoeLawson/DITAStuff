@@ -1,0 +1,9 @@
+Release,Release Type,Installer_Version,Database_Upgrade,WebApp,SSO,RN_Type,Known_Issues
+1.0.0,major,iv10,db_upgrade,include,include,rn_na,ki_no
+1.0.1,servicepack,iv10,db_none,exclude,exclude,rn_fixes,ki_yes
+1.0.2,servicepack,iv10,db_none,exclude,exclude,rn_fixes,ki_no
+1.1.0,featurepack,iv10,db_upgrade,include,include,rn_na,ki_no
+1.1.1,servicepack,iv11,db_upgrade,exclude,exclude,rn_fixes_merges,ki_no
+1.2.0,featurepack,iv11,db_none,include,include,rn_na,ki_no
+1.2.1,servicepack,iv11,db_none,exclude,exclude,rn_fixes,ki_no
+2.0.0,major,iv12,db_upgrade,include,include,rn_na,ki_no

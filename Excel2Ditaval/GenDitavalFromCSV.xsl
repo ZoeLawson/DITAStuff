@@ -314,17 +314,8 @@
                 </xsl:comment>
                 <xsl:element name="prop">
                     <xsl:attribute name="action">
-                        <xsl:text>exclude</xsl:text>
-                    </xsl:attribute>
-                    <xsl:attribute name="att">otherprops</xsl:attribute>
-                    <xsl:attribute name="val">
-                        <xsl:text>Copyright_2019</xsl:text>
-                    </xsl:attribute>
-                </xsl:element>
-                <xsl:element name="prop">
-                    <xsl:attribute name="action">
                         <xsl:choose>
-                            <xsl:when test="$line[$version_column] = 'Copyright_2020'">
+                            <xsl:when test="$line[$version_column] = 'copyright_2019'">
                                 <xsl:text>include</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
@@ -334,13 +325,13 @@
                     </xsl:attribute>
                     <xsl:attribute name="att">otherprops</xsl:attribute>
                     <xsl:attribute name="val">
-                        <xsl:text>Copyright_2020</xsl:text>
+                        <xsl:text>copyright_2019</xsl:text>
                     </xsl:attribute>
                 </xsl:element>
                 <xsl:element name="prop">
                     <xsl:attribute name="action">
                         <xsl:choose>
-                            <xsl:when test="$line[$version_column] = 'Copyright_2021'">
+                            <xsl:when test="$line[$version_column] = 'copyright_2020'">
                                 <xsl:text>include</xsl:text>
                             </xsl:when>
                             <xsl:otherwise>
@@ -350,7 +341,23 @@
                     </xsl:attribute>
                     <xsl:attribute name="att">otherprops</xsl:attribute>
                     <xsl:attribute name="val">
-                        <xsl:text>Copyright_2021</xsl:text>
+                        <xsl:text>copyright_2020</xsl:text>
+                    </xsl:attribute>
+                </xsl:element>
+                <xsl:element name="prop">
+                    <xsl:attribute name="action">
+                        <xsl:choose>
+                            <xsl:when test="$line[$version_column] = 'copyright_2021'">
+                                <xsl:text>include</xsl:text>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:text>exclude</xsl:text>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                    <xsl:attribute name="att">otherprops</xsl:attribute>
+                    <xsl:attribute name="val">
+                        <xsl:text>copyright_2021</xsl:text>
                     </xsl:attribute>
                 </xsl:element>
             </xsl:when>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mcchandout">
+    <target name="dita2mcchandout.init">
+        <property name="customization.dir" location="${dita.plugin.mcchandout.dir}/cfg"/>
+        <property name="pdf2.i18n.skip" value="false"/>
+    </target>
+    <target name="dita2mcchandout" depends="dita2mcchandout.init, dita2pdf2"></target>
+</project>

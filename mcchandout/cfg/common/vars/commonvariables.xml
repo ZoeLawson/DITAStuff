@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+  
+  <!-- Product name -->
+  <variable id="Product Name"><param ref-name="prodname"/></variable>
+  
+  <variable id="Page Number"><param ref-name="pagenum"/></variable>
+  
+  <variable id="Heading"><param ref-name="heading"/></variable>
+
+  <!-- The header that appears on the odd-numbered table of contents pages. --> 
+  <variable id="Toc odd header"><param ref-name="document"/> <param ref-name="heading"/></variable>
+
+  <!-- The footer that appears on odd-numbered pages. -->
+  <variable id="Body odd footer"><param ref-name="prodname"></param> <param ref-name="pagenum"/></variable>
+
+  <!-- The footer that appears on the first page of a chapter. -->
+  <variable id="Body first footer"><param ref-name="prodname"></param> <param ref-name="pagenum"/></variable>
+
+  <!-- The header that appears on the first page of a chapter. -->
+  <variable id="Body first header"/>
+
+  <!-- The header that appears on odd-numbered pages. -->
+  <variable id="Body odd header"><param ref-name="document"/> <param ref-name="heading"/></variable>
+
+  <!-- The footer that appears on the odd-numbered table of contents pages. --> 
+  <variable id="Toc odd footer"><param ref-name="prodname"></param> <param ref-name="pagenum"/></variable>
+
+  <!-- The footer that appears on the first table of contents pages. --> 
+  <variable id="Toc first footer"><param ref-name="prodname"></param> <param ref-name="pagenum"/></variable>
+  
+  <!-- The unordered list bullet   -->
+  <variable id="Unordered List bullet">•</variable>
+  <variable id="Unordered List bullet 1">•</variable>
+  <variable id="Unordered List bullet 2">•</variable>
+  <variable id="Unordered List bullet 3">•</variable>
+  <variable id="Unordered List bullet 4">•</variable>
+
+  <!-- French, Japanese override #note-separator -->
+  <variable id="#note-separator">: </variable>
+
+  <!-- To restore finger image used before 2.2, reference the image: Configuration/OpenTopic/cfg/common/artwork/hand.gif -->
+  <!-- Image path to use for a note of "note" type. -->
+  <variable id="note Note Image Path"></variable>
+  <!-- Image path to use for a note of "notice" type. -->
+  <variable id="notice Note Image Path"></variable>
+  <!-- Image path to use for a note of "attention" type. -->
+  <variable id="attention Note Image Path">Configuration/OpenTopic/cfg/common/artwork/ISO_7010_W001.svg</variable>
+  <!-- Image path to use for a note of "caution" type. -->
+  <variable id="caution Note Image Path">Configuration/OpenTopic/cfg/common/artwork/ISO_7010_W001.svg</variable>
+  <!-- Image path to use for a note of "danger" type. -->
+  <variable id="danger Note Image Path">Configuration/OpenTopic/cfg/common/artwork/ISO_7010_W001.svg</variable>
+  <!-- Image path to use for a note of "warning" type. -->
+  <variable id="warning Note Image Path">Configuration/OpenTopic/cfg/common/artwork/ISO_7010_W001.svg</variable>
+  <!-- Image path to use for a note of "fastpath" type. -->
+  <variable id="fastpath Note Image Path"></variable>
+  <!-- Image path to use for a note of "important" type. -->
+  <variable id="important Note Image Path"></variable>
+  <!-- Image path to use for a note of "remember" type. -->
+  <variable id="remember Note Image Path"></variable>
+  <!-- Image path to use for a note of "restriction" type. -->
+  <variable id="restriction Note Image Path"></variable>
+  <!-- Image path to use for a note of "tip" type. -->
+  <variable id="tip Note Image Path"></variable>
+  <!-- Image path to use for a note of "troubleshooting" type. -->
+  <variable id="trouble Note Image Path">Configuration/OpenTopic/cfg/common/artwork/ISO_7010_W001.svg</variable>
+  <!-- Image path to use for a note of "other" type. -->
+  <variable id="other Note Image Path"></variable>
+
+  <!--Numbering and format for task steps-->
+  <variable id="Step Number"><param ref-name="number"/>. </variable>
+  <variable id="Step Format">1</variable>
+  <variable id="Substep Number"><param ref-name="number"/>. </variable>
+  <variable id="Substep Format">a</variable>
+
+</vars>

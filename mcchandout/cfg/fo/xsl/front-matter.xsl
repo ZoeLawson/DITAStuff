@@ -89,9 +89,7 @@
     </fo:block>
     <fo:block xsl:use-attribute-sets="__frontmatter__owner">
       <!--<xsl:apply-templates select="$map//*[contains(@class,' bookmap/bookmeta ')]"/>-->
-      <xsl:if test="$map//*[contains(@class,' topic/author ')][1]">
-        <xsl:value-of select="$map//*[contains(@class,' topic/author ')][1]"/>
-      </xsl:if>
+      <xsl:value-of select="//*[contains(@class,'bookmap/person')]"/>
     </fo:block>
   </xsl:template>
   
